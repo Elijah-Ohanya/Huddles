@@ -1,0 +1,78 @@
+*{
+    /* box-sizing: border-box; */
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    /* border: 2px solid black; */
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom,blueviolet,violet);
+}
+
+.container1{
+    /* border: 3px solid ; */
+    min-height: 100vh;
+    max-width: 1200px;
+    margin: auto auto;
+}
+
+.h2{
+    color: aliceblue;
+    font-size: 40px;
+    letter-spacing: 5px;
+    margin-top: 20px;
+}
+
+.container2{
+    /* border: 2px solid; */
+    height: 60vh;
+    flex-grow: 1;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 5px solid purple; */
+    display: flex;
+    width: 100%;
+    gap: 22px;
+}
+
+.container-1{
+    background-image: url(./elijah.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 50%;
+    border-radius: 10%;
+
+}
+
+.container-2{
+    width: 50%;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.reg{
+    padding: 10px;
+    border-radius: 30px;
+    width: 100px;
+    font-size: 20px;
+
+}
+
+@media 500px {
+    .container-2{
+        width: 50%;
+        color: aliceblue;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+}

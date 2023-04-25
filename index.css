@@ -66,13 +66,15 @@
 
 }
 
-@media 500px {
-    .container-2{
+/* 
+@media screen 100px {
+    .container-1{
+        background-image: url(./elijah.jpg);
+        background-position: center;
+        background-size: cover;
         width: 50%;
-        color: aliceblue;
-        display: flex;
-        justify-content: center;
-        align-items: flex-start;
-        flex-direction: column;
+        border-radius: 10%;
+    
     }
-}
+    
+} */
